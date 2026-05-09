@@ -1,0 +1,12 @@
+.links {
+    display: flex;
+    background-color: Blue;
+}
+
+.links a {
+    background-color: white;
+    margin: 10px;
+    font-size: 20;
+}
+
+body {}
