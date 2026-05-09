@@ -1,12 +1,22 @@
+/* modify the nav bars */
 .links {
     display: flex;
-    background-color: Blue;
+    background-color: black;
+    gap: 450px;
+    align-items: center;
 }
 
-.links a {
-    background-color: white;
-    margin: 10px;
-    font-size: 20;
+.nav {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
 }
 
-body {}
+/* designs the body content(image) */
+body {
+    background-image: url(lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
