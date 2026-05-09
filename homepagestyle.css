@@ -18,5 +18,18 @@ body {
     background-image: url(lion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 10;
+}
 
+/* design the heading */
+h1 {
+    color: rgb(239, 168, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* introductory paragraph */
+.intro {
+    text-align: left;
+    width: 200px;
+    color: darkorange;
 }
