@@ -1,35 +1,79 @@
-/* modify the nav bars */
-.links {
-    display: flex;
-    background-color: black;
-    gap: 450px;
-    align-items: center;
+/* media query for screens with a minimum width of 20px */
+@media screen and (min-width: 20px) {
+
+    /* nav bars modification */
+    .links {
+        display: flex;
+        background-color: black;
+        gap: 50px;
+        align-items: center;
+    }
+
+    /* image design */
+    body {
+        background-image: url(lion.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 10;
+    }
+
+    /* itro paragraph design */
+    .intro {
+        text-align: left;
+        width: 250px;
+        color: black;
+        font-size: 15px;
+    }
+
+    header {
+        text-align: center;
+        color: white;
+    }
 }
 
-.nav {
-    color: white;
-    font-size: 25px;
-    padding: 10px;
-    margin: 0px;
-}
+/* media query for screens with a minimum width of 1000px */
+@media screen and (min-width: 1000px) {
 
-/* designs the body content(image) */
-body {
-    background-image: url(lion.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 10;
-}
+    /* modify the nav bars */
+    .links {
+        display: flex;
+        background-color: black;
+        gap: 450px;
+        align-items: center;
+    }
 
-/* design the heading */
-h1 {
-    color: rgb(239, 168, 26);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    .nav {
+        color: rgb(239, 168, 26);
+        font-size: 25px;
+        padding: 10px;
+        margin: 0px;
+    }
 
-/* introductory paragraph */
-.intro {
-    text-align: left;
-    width: 200px;
-    color: darkorange;
+    /* designs the body content(image) */
+    body {
+        background-image: url(lion.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 10;
+    }
+
+    /* design the heading */
+    h1 {
+        font-size: 50px;
+        color: rgb(239, 168, 26);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* introductory paragraph */
+    .intro {
+        text-align: left;
+        width: 600px;
+        color: black;
+        font-size: 25px;
+    }
+
+    header {
+        text-align: center;
+        color: rgb(239, 168, 26);
+    }
 }
