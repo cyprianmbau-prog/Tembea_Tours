@@ -14,7 +14,7 @@
         background-image: url(lion.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 10;
+        opacity: 20;
     }
 
     /* itro paragraph design */
@@ -54,7 +54,7 @@
         background-image: url(lion.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 10;
+        opacity: 20;
     }
 
     /* design the heading */
@@ -67,7 +67,7 @@
     /* introductory paragraph */
     .intro {
         text-align: left;
-        width: 600px;
+        width: 650px;
         color: black;
         font-size: 25px;
     }
