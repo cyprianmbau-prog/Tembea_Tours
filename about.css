@@ -13,12 +13,54 @@
      margin: 0px;
  }
 
+ /* designs the header of the page */
  header {
      color: rgb(239, 168, 26);
      text-align: center;
      font-size: 20px;
  }
 
+ /* the first paragraph */
  .first {
      font-size: 20px;
  }
+
+ /* images design */
+ .images {
+     display: flex;
+     gap: 200px;
+     flex-wrap: wrap;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ .kruger {
+     width: 500px;
+     height: 500px;
+     object-fit: cover;
+ }
+
+ .sere {
+     width: 500px;
+     height: 500px;
+     object-fit: cover;
+ }
+
+ .amboseli {
+     width: 500px;
+     height: 500px;
+     object-fit: cover;
+ }
+
+ .mara {
+     width: 500px;
+     height: 500px;
+     object-fit: cover;
+ }
+
+ /* .image {
+     width: 50%;
+
+ } */
