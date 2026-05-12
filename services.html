@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>booking and services</title>
 </head>
+<!-- css file link -->
+<link rel="stylesheet" href="services.css">
 
 <body>
+    <!-- nav bars links -->
     <nav>
         <div class="links">
             <a class="nav" href="index.html">HOME</a>
@@ -15,6 +18,25 @@
             <a class="nav" href="services.html">BOOKING</a>
         </div>
     </nav>
+
+    <!-- intro paragraph -->
+    <p>
+        Please fill this form for more information and booking services.
+    </p>
+
+    <!-- input form -->
+    <input type="text" placeholder="your first name"><br>
+    <input type="text" placeholder="your last name"><br>
+    <input type="number" placeholder="your phone number"><br>
+    <label for="site">select a site</label><br>
+    <select id="site" name="site" required>
+        <option value="">select</option>
+        <option value="masaai mara">maasai mara</option>
+        <option value="kruger">kruger</option>
+        <option value="serengeti">seregenti</option>
+        <option value="amboseli">amboseli</option>
+    </select>
+    <button onclick="getSite">Submit</button>
 </body>
 
 </html>
