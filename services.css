@@ -1,0 +1,14 @@
+ /* modify the nav bars */
+ .links {
+     display: flex;
+     background-color: black;
+     gap: 450px;
+     align-items: center;
+ }
+
+ .nav {
+     color: rgb(239, 168, 26);
+     font-size: 25px;
+     padding: 10px;
+     margin: 0px;
+ }
