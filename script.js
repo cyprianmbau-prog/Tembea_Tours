@@ -1,0 +1,24 @@
+// function 
+function getName() {
+    const tourSite = document.getElementById("tourSite").value;
+    let message = "";
+
+    // the if statement to determine the message to give back
+    if (tourSite === "amboseli") {
+        message = "welcome to kenya.Enjoy the wildlife tour with us.";
+    }
+    else if (tourSite === "maasai mara") {
+        message = "Welcome to the best tour site in Kenya enjoy your trip!";
+    }
+    else if (tourSite === "kruger") {
+        message = "visit South Africa's best tourist attraction site.";
+    }
+    else if (tourSite === "seregenti") {
+        message = "Welcome to Tanzania where you will enjoy the wildlife view with us.";
+    }
+    else {
+        message = "Thank you for visiting our site";
+    }
+
+    document.getElementById("result").textContent = message;
+}
