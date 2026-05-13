@@ -35,23 +35,18 @@
         <label>Phone Number:</label><br>
         <input type="number" placeholder="your phone number"><br><br>
 
-        <!-- option for site selection -->
-        <label for="site">Select A Site:</label><br>
-        <select id="site" name="site" required>
-            <option value="">select</option>
-            <option value="masaai mara">maasai mara</option>
-            <option value="kruger">kruger</option>
-            <option value="serengeti">seregenti</option>
-            <option value="amboseli">amboseli</option>
-        </select><br><br>
-
         <label>Date Of Travel:</label><br>
         <input type="date" placeholder="Your travel date"><br><br>
 
         <label>Number Of Visitors:</label><br>
         <input type="number" placeholder="no. of visitors" min="1"><br><br>
-        <button onclick="getSite">Submit</button>
+
+        <label>Site Of Visit:</label><br>
+        <input type="text" id="tourSite" placeholder="tour site" required><br><br>
+
+        <button onclick="getName()">Submit</button>
     </div>
+    <p id="result"></p>
     <!-- information paragraph -->
     <div class="conclusion">
         For more information please contact us through our phone number, <br><b>0700022111</b> or via our email,
@@ -59,6 +54,8 @@
     </div>
     <!-- page footer -->
     <footer>Thank you for visiting our site.</footer>
+    <!-- javascript link -->
+    <script src="script.js"></script>
 </body>
 
 </html>
