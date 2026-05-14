@@ -1,4 +1,4 @@
-// function 
+// function to get the message according to user input.
 function getName() {
     const tourSite = document.getElementById("tourSite").value;
     let message = "";
@@ -21,4 +21,25 @@ function getName() {
     }
 
     document.getElementById("result").textContent = message;
+}
+// function to count the number of users who have applied to visit.
+let touristCount = 0;
+function countTourists() {
+    let name = document.getElementById("touristName").value;
+
+    // if statement to determine whether to add a user and if not a message is shown
+    if (name !== "") {
+        touristCount++;
+
+        // message when user enters his/her first name
+        document.getElementById("display").textContent =
+            "Tourists applied:" + touristCount;
+        document.getElementById("touristName").value = "";
+    }
+    // message if user fails to input hhs/her first name
+    else {
+        document.getElementById("display").textContent =
+            "please fill the first name field above.";
+
+    }
 }
