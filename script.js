@@ -16,13 +16,23 @@ function getName() {
     else if (tourSite === "seregenti") {
         message = "Welcome to Tanzania where you will enjoy the wildlife view with us.";
     }
+
     else {
         message = "Thank you for visiting our site. Please choose on site of your choice";
     }
 
+
     document.getElementById("result").textContent = message;
     result.style.backgroundColor = "darkgreen";
     result.style.border = "2px solid red";
+    result.style.fontSize = "20px";
+
+
+    // a reload function to refresh the page after 5secs
+    setTimeout(function () {
+        location.reload();
+    }, 5000);
+
 }
 
 // function to count the number of users who have applied to visit.
@@ -37,6 +47,10 @@ function countTourists() {
         // message when user enters his/her first name
         document.getElementById("display").textContent =
             "Tourists applied:" + touristCount;
+        display.style.backgroundColor = "red";
+        display.style.border = "2px solid black";
+        display.style.fontSize = "20px";
+
         document.getElementById("touristName").value = "";
     }
     // message if user fails to input hhs/her first name
@@ -45,6 +59,8 @@ function countTourists() {
             "Please fill the first name field above.";
         display.style.backgroundColor = "red";
         display.style.border = "2px solid black";
+        display.style.fontSize = "20px";
+
 
     }
 }
