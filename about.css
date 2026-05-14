@@ -5,7 +5,7 @@
      .links {
          display: flex;
          background-color: rgba(0, 0, 0, 0.313);
-         gap: 50px;
+         gap: 80px;
          align-items: center;
      }
 
