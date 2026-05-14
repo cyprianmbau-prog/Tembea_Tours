@@ -4,9 +4,31 @@
      /* nav bars modification */
      .links {
          display: flex;
-         background-color: black;
+         background-color: rgba(0, 0, 0, 0.313);
          gap: 50px;
          align-items: center;
+     }
+
+     header {
+         text-align: center;
+         color: blueviolet;
+     }
+
+     body {
+         background-color: antiquewhite;
+     }
+
+     h4 {
+         text-decoration: underline;
+
+     }
+
+     h5 {
+         color: darkgreen;
+     }
+
+     img {
+         width: 50%;
      }
  }
 
