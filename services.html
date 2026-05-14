@@ -30,7 +30,7 @@
         <input type="text" placeholder="your first name"><br><br>
 
         <label>Last Name:</label><br>
-        <input type="text" placeholder="your last name"><br><br>
+        <input type="text" id="touristName" placeholder="your last name"><br><br>
 
         <label>Phone Number:</label><br>
         <input type="number" placeholder="your phone number"><br><br>
@@ -44,9 +44,10 @@
         <label>Site Of Visit:</label><br>
         <input type="text" id="tourSite" placeholder="tour site" required><br><br>
 
-        <button onclick="getName()">Submit</button>
+        <button onclick="getName();countTourists();">Submit</button>
     </div>
     <p id="result"></p>
+    <p id="display"></p>
     <!-- information paragraph -->
     <div class="conclusion">
         For more information please contact us through our phone number, <br><b>0700022111</b> or via our email,
