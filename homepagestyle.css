@@ -34,6 +34,11 @@
         text-align: center;
         color: white;
     }
+
+    .input {
+        font-size: 15px;
+        color: darkred;
+    }
 }
 
 /* media query for screens with a minimum width of 1000px */
@@ -80,5 +85,10 @@
     header {
         text-align: center;
         color: rgb(239, 168, 26);
+    }
+
+    .input {
+        font-size: 20px;
+        color: blue;
     }
 }
