@@ -5,16 +5,16 @@ function getName() {
 
     // the if statement to determine the message to give back
     if (tourSite === "AMBOSELI NATIONAL PARK") {
-        message = "welcome to kenya.Enjoy the wildlife tour with us.";
+        message = "welcome to Ammboseli park located in  Kajiado county of Kenya.It's located a the foot of M.Kilimanjaro and this gives you and advatage of veiwing the Africa's highest mountain.<br>We will reach out to you through your phone for further information.";
     }
     else if (tourSite === "MAASAI MARA PARK") {
-        message = "Welcome to the best tour site in Kenya enjoy your trip!";
+        message = "Welcome to the mos famous tourist site in Kenya.Located in Narok county and borders Serengeti park in Tanzania.We will reach out to you through your phone for further information.";
     }
     else if (tourSite === "KRUGER PARK") {
-        message = "visit South Africa's best tourist attraction site.";
+        message = "Welcome to South Africa's best tourist attraction site.It is located at Cape Town, the capital city of south Africa.We will reach out to you through your phone for further information.";
     }
     else if (tourSite === "SERENGETI NATIONAL PARK") {
-        message = "Welcome to Tanzania where you will enjoy the wildlife view with us.";
+        message = "Welcome to  the Tanzania most famous tourist site.It borders Maasai mara park of Kenya and this makes you have a veiw of the wildbeests migration.We will reach out to you through your phone for further information.";
     }
 
     else {
