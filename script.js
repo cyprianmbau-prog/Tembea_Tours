@@ -17,11 +17,14 @@ function getName() {
         message = "Welcome to Tanzania where you will enjoy the wildlife view with us.";
     }
     else {
-        message = "Thank you for visiting our site";
+        message = "Thank you for visiting our site. Please choose on site of your choice";
     }
 
     document.getElementById("result").textContent = message;
+    result.style.backgroundColor = "darkgreen";
+    result.style.border = "2px solid red";
 }
+
 // function to count the number of users who have applied to visit.
 let touristCount = 0;
 function countTourists() {
@@ -39,7 +42,9 @@ function countTourists() {
     // message if user fails to input hhs/her first name
     else {
         document.getElementById("display").textContent =
-            "please fill the first name field above.";
+            "Please fill the first name field above.";
+        display.style.backgroundColor = "red";
+        display.style.border = "2px solid black";
 
     }
 }
