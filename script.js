@@ -51,7 +51,7 @@ function countTourists() {
         display.style.border = "2px solid black";
         display.style.fontSize = "20px";
 
-        document.getElementById("touristName").value = "";
+        document.getElementById("touristName").value;
     }
     // message if user fails to input hhs/her first name
     else {
