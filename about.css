@@ -9,6 +9,11 @@
          align-items: center;
      }
 
+     .nav:hover {
+         background-color: aqua;
+         color: red;
+     }
+
      header {
          text-align: center;
          color: blueviolet;

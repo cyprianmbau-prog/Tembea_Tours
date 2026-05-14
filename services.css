@@ -9,6 +9,11 @@
          align-items: center;
      }
 
+     .nav:hover {
+         background-color: aqua;
+         color: red;
+     }
+
      body {
          background-color: bisque;
      }
