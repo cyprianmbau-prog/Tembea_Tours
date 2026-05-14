@@ -4,16 +4,16 @@ function getName() {
     let message = "";
 
     // the if statement to determine the message to give back
-    if (tourSite === "amboseli") {
+    if (tourSite === "AMBOSELI NATIONAL PARK") {
         message = "welcome to kenya.Enjoy the wildlife tour with us.";
     }
-    else if (tourSite === "maasai mara") {
+    else if (tourSite === "MAASAI MARA PARK") {
         message = "Welcome to the best tour site in Kenya enjoy your trip!";
     }
-    else if (tourSite === "kruger") {
+    else if (tourSite === "KRUGER PARK") {
         message = "visit South Africa's best tourist attraction site.";
     }
-    else if (tourSite === "seregenti") {
+    else if (tourSite === "SERENGETI NATIONAL PARK") {
         message = "Welcome to Tanzania where you will enjoy the wildlife view with us.";
     }
 
